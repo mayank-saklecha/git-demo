@@ -18,6 +18,7 @@ public class test {
 	{
 		File file = new File("C:\\test\\fares.json");
 		Scanner s = new Scanner(file);
+		System.out.println("June 2016 Change");
 		StringBuffer buf = new StringBuffer();
 		while (s.hasNext()) {
 		    buf.append(s.nextLine());
